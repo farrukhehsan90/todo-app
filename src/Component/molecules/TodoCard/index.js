@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { updateTodo, deleteTodo, getTodos } from "../Redux/Actions/todo";
+import { updateTodo, deleteTodo, getTodos } from "../../../Redux/Actions/todo";
 
 const TodoCard = ({ todo, todoIndex }) => {
   const dispatch = useDispatch();  

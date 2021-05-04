@@ -1,16 +1,11 @@
+import React from "react";
 import "./App.css";
-import Form from "./Component/Form";
-import Header from "./Component/Header";
-import TodoList from "./Component/TodoList";
+import { Home } from "./Pages";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Form />
-      <hr />
-      <TodoList />
-      <hr />
+      <Home />
     </div>
   );
 }
